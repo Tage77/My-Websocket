@@ -5,7 +5,7 @@
 // 3 – “CLOSED”: the connection is closed.
 const CONNECTING=0;
 const CONNECTED=1;
-const CLOSING=2;
+const CLOSING=2;
 const CLOSED=3;
 let i = 0;
 let delay = ms => new Promise(r => setTimeout(r, ms));
